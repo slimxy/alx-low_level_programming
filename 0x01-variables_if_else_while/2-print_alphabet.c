@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
-* main - prints alphabet in lowercase
+* main - prints alphabet in lowercase,
 * Return: Always 0 (Success)
 */
 int main(void)
 {
-	char alpha
+	char alpha;
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
