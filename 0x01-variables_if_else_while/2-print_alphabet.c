@@ -4,7 +4,7 @@
 * main - prints alphabet in lowercase
 * Return: Always 0 (Success)
 */
-iint main(void)
+int main(void)
 {
 	char alpha
 
@@ -12,7 +12,7 @@ iint main(void)
 	{
 		putchar(alpha);
 	}
-		piutchar('\n');
+		putchar('\n');
 	return (0);
 }
 
