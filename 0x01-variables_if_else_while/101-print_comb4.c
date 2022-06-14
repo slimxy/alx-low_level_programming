@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-	int a, b;
+	int a, b, z = 0;
 
 	a = 48;
 	b = 48;
@@ -17,7 +17,7 @@ int main(void)
 				if (b != a && b < a)
 				{
 					putchar(b);
-					putchar(a);
+					putchar(z a);
 					if (a == 57 && b == 56)
 					{
 						break;
