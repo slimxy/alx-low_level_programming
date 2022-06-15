@@ -18,7 +18,6 @@ int main(void)
 				{
 					putchar(b);
 					putchar(a);
-					putchar(z);
 					if (a == 57 && b == 56)
 					{
 						break;
