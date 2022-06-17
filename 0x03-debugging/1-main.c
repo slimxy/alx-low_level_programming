@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * main - remove infinte loop
 * Return: 0
