@@ -8,17 +8,16 @@
 * another number if not.
 */
 
-int _strcmp(char *s1, char *s2)
+char *_strncpy(char *dest, char *src, int n)
 {
-	int a = 0, b = 0;
+	int i;
 
-	while (b == 0)
-	{
-		if ((*(s1 + a) == '\0') && (*(s2 + a) == '\0'))
-			break;
-		b = *(s1 + a) - *(s2 + a);
-		a++;
-	}
-	return (b);
+	for (i = 0; i < n && src[i] != '\0'; i++)
+		dest[i] = src[i];
+	for ( ; i < n; i++)
+		dest[i] = '\0';
+
+	return (dest);
 }
+
 
