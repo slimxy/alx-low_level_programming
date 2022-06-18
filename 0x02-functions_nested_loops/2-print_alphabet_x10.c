@@ -2,24 +2,23 @@
 #include <stdio.h>
 /**
 * print_alphabet_x10 - print alphabet 10 times
-* Return : void  successfull.
+* Return: void
 */
 
 void print_alphabet_x10(void)
 {
-	int amount = 0;
-	char alpha = 'a';
+	int x = 0;
+	char letter = 'a';
 
-	while (amount < 10)
+	while (x < 10)
 	{
-		amount = 'a';
-		while (alpha <= 'z')
+		letter = 'a';
+		while (letter <= 'z')
 		{
-			putchar(alpha);
-			alpha++;
+			_putchar(letter);
+			letter++;
 		}
-		putchar('\n');
-		amount++;
+		_putchar('\n');
+		x++;
 	}
-	return ;
 }
